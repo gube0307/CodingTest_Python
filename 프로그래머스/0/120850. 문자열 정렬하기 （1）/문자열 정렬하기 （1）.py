@@ -3,5 +3,5 @@ def solution(my_string):
     for i in my_string:
         if i.isdigit() == True:
             answer.append(int(i))
-            answer.sort()
+    answer.sort()
     return answer
